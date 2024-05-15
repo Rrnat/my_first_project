@@ -39,3 +39,5 @@ uvicorn==0.29.0
 watchdog==4.0.0
 xmlrpclib==1.0.1
 zstandard==0.22.0
+
+requests~=2.31.0
