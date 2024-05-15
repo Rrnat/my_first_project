@@ -17,7 +17,7 @@ MAX_TTS_SYMBOLS = 12
 SYSTEM_PROMPT = [{'role': 'system', 'text': 'Ты профессиональный психолог.'
                                             'Помоги человеку разобраться в себе.'}]
 
-HOME_DIR = '/Users/Citi/Desktop/pythonYandex/BotZinka'
+HOME_DIR = '/home/student/my_first_project'
 LOGS = f'{HOME_DIR}/logs.txt'
 DB_FILE = f'{HOME_DIR}/messages.db'
 
