@@ -16,6 +16,7 @@ logging.basicConfig(filename=LOGS,
 
 
 def count_gpt_tokens(messages):
+    IAM_TOKEN, FOLDER_ID = get_creds()  # получаем iam_token и folder_id из файлов
     url = "https://llm.api.cloud.yandex.net/foundationModels/v1/tokenizeCompletion"
     headers = {
         'Authorization': f'Bearer {IAM_TOKEN}',
@@ -34,6 +35,7 @@ def count_gpt_tokens(messages):
 
 # запрос к GPT
 def ask_gpt(messages):
+    IAM_TOKEN, FOLDER_ID = get_creds()
     url = "https://llm.api.cloud.yandex.net/foundationModels/v1/completion"
     headers = {
         'Authorization': f'Bearer {IAM_TOKEN}',

@@ -2,15 +2,15 @@ import os.path
 import telebot
 from telebot import types
 
-# from creds import get_bot_token  # модуль для получения bot_token
+from creds import get_bot_token  # модуль для получения bot_token
 from validators import *  # модуль для валидации
 from yandex_gpt import *  # модуль для работы с GPT
 from config import *
 from database import *
 from SpeechKit import *
 
-# bot = telebot.TeleBot(get_bot_token())  # создаём объект бота
-bot = telebot.TeleBot(TOKEN)
+bot = telebot.TeleBot(get_bot_token())  # создаём объект бота
+# bot = telebot.TeleBot(TOKEN)
 
 logging.basicConfig(
     filename=LOGS,

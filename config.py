@@ -1,11 +1,11 @@
-TOKEN = '6906971121:AAGOz4GmvxjtPBCt3Bifxz_r0nEaSoAdOO4'
+TOKEN = ''
 
 MAX_USERS = 3
 MAX_GPT_TOKENS = 120
 COUNT_LAST_MSG = 4
 
-IAM_TOKEN = "t1.9euelZqNjJrKl4mJi56cjpWUypyLiu3rnpWayJeVkZCKis_NkJbOjsuam4_l8_dtIXBN-e9iJGtL_d3z9y1QbU3572Ika0v9zef1656VmpqLmYqeiZHGmZaQkZSVzZPP7_zF656VmpqLmYqeiZHGmZaQkZSVzZPPveuelZqXjZWPypmWzJvHkZ2PzpqZkrXehpzRnJCSj4qLmtGLmdKckJKPioua0pKai56bnoue0oye.JextKLgFpU-6OY_vzul-OYLPPnQDcaF6dFPCQj4mBB8G5_MpIapHzlAjNEEfBrA2k5tGxDuJsBbg2nV_JQNrCQ"
-FOLDER_ID = 'b1gtcn1fr80ocof1599a'
+IAM_TOKEN = ""
+FOLDER_ID = ''
 ADMIN_ID = '801460635'  # user_id автора бота чтобы получать отчеты с логами
 
 
