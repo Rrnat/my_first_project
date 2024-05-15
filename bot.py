@@ -54,7 +54,7 @@ def help(message):
                                            "Так же ты можешь сделать проверку:\n"
                                            "/stt - проверка синтеза речи\n"
                                            "/tts - проверка распознавания речи",
-                     reply_markup=menu_keyboard(["/stt, /tts"]))
+                     reply_markup=menu_keyboard(["/stt", "/tts"]))
 
 
 @bot.message_handler(commands=['start'])
